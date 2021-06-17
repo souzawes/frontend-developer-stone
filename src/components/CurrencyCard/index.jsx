@@ -1,7 +1,8 @@
 import styles from './styles.module.css';
 
 import { IconContext } from "react-icons";
-import { FaExchangeAlt } from 'react-icons/fa'
+import { FaExchangeAlt } from 'react-icons/fa';
+
 
 const CurrencyCard = () => {
     return(
