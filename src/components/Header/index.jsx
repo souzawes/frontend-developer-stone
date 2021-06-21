@@ -9,7 +9,7 @@ const Header = () => {
         locale: ptBR,
     });
 
-    const currentHour = format(new Date(), "h':'mm OOO", {
+    const currentHour = format(new Date(), "H':'mm OOO", {
         locale: ptBR,
     });
 
@@ -17,7 +17,7 @@ const Header = () => {
         <header className={styles.container}>
             <img className={styles.logo} src="images/logo.png" alt="Logotipo"/>
             <div>
-                <span> {currentDate}    |     {currentHour}</span>
+                <span> {currentDate} | {currentHour}</span>
                 <p>Dados de câmbio disponibilizados pela Morningstar.</p>
             </div>
         </header>
